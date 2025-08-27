@@ -5,6 +5,6 @@ public class RegularPolicy implements DiscountPolicy{
 
     @Override
     public double apply(double amount) {
-        return 0;
+        return amount * 0.95;
     }
 }
